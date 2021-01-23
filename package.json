@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Marcos Maverick",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "typescript": "^4.1.3"
+  }
 }
