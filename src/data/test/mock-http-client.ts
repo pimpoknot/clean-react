@@ -1,4 +1,4 @@
-import { HttpResponse, HttpStatusCode, HttpPostClient, HttpPostParams } from "@/domain/data/protocols/http/";
+import { HttpResponse, HttpStatusCode, HttpPostClient, HttpPostParams } from "@/data/protocols/http";
 // import { HttpResponse } from "../protocols/http/http-response";
 
 export class HttpPostClientSpy<T, R> implements HttpPostClient<T, R>{
